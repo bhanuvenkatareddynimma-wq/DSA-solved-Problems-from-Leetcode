@@ -9,9 +9,9 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             StringBuffer ab=new StringBuffer(Integer.toString(nums[i]));
             int n=Integer.parseInt(String.valueOf(ab.reverse()));
-            if(!al.contains(n)){
+            
                 al.add(n);
-            }
+            
         }
         return al.size();
     }
